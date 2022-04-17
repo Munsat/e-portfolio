@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color:#364F6B
+}
+
+p{
+  line-height: 1.5;
+}
+
+a{
+  color: #3FC1C9;
+}
+
+h1{
+  margin: 0 auto;
+  font-family: 'Ms Madi', cursive;
+  font-size: 4.25rem;
+  color: #364F6B;
+}
+
+h2{
+  font-size: 1.875rem;
+  font-family: 'Poiret One', cursive;
+  color: #364F6B;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  color: #3FC1C9;
+}
+
+hr{
+  margin: 50px auto;
+  border-top: dotted #FC5185 8px;
+  width: 15%;
+  opacity: 0.6;
+}
+
+.top_container{
+  background-color: #F5F5F5;
+  position: relative;
+  padding-top: 190px;
+}
+
+.background{
+  width: 100%;
+  height: auto;
+  opacity: .7;
+}
+
+.bottom-cloud{
+  width:15%;
+  opacity: .7;
+  position: absolute;
+  bottom: 400px;
+  left: 300px;
+}
+
+.top-cloud{
+  width:12%;
+  opacity: .8;
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.subtitle{
+  margin: 0;
+  font-weight:normal;
+}
+
+.bio{
+  width:30%;
+  margin: auto;
+}
+
+.middle-container{
+  padding-top: 100px;
+}
+
+.image{
+  width: 15%;
+}
+
+.coding{
+  width:20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.graphic-design{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  color: #F5F5F5;
+  font-size: 20px;
+  background: #3FC1C9;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 50px auto;
+  transition: background-color 0.5s;
+}
+
+.btn:hover {
+  background: #FC5185;
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #F5F5F5;
+  padding: 60px 0 20px;
+}
+
+.copyright{
+  font-size: 0.8rem;
+  color: #364F6B;
+  padding: 30px 0 0;
+}
+
+.footer-link{
+  text-decoration: none;
+  padding: 25px;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  color: #FC5185;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 30px auto 0;
+}
+.logo{
+  width: 4%;
+  transition: opacity 0.5s;
+}
+
+.logo:hover{
+  opacity: 0.5;
+}
